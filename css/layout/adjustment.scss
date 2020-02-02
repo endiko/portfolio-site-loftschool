@@ -1,0 +1,155 @@
+body, html {
+	width: 100%;
+	height: 100%;
+	font-family: 'FiraSans-Regular', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #414141;
+}
+
+body {
+	background: #f6f6f6;
+}
+
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+h1 {
+	
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #414141;
+}
+
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+    position: relative;
+    
+}
+
+.wrapper__fill {
+	background: url('../../img/bg/geometry2.png') 0 0 repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+
+	&:before {
+		content: "";
+		display: inline-block;
+		height: 100%;
+		width: 0;
+		vertical-align: middle;
+	}
+
+	.wrapper__box {
+		max-width: 300px;
+		display: inline-block;
+		vertical-align: middle;
+		text-align: center;
+	  	margin: 0 auto;
+		border-radius: 10px;
+	  	background-color: rgb(255, 255, 255);
+	  	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+	  	animation-name: slideInDown;
+		animation-duration: 4s;
+		
+		.box__top {
+			padding: 90px 80px 15px 80px;
+			//margin-top: 70px;
+			position: relative;
+
+			.box__img_wrapper {
+				width: 140px;
+				height: 140px;
+				border-radius: 50%;
+				overflow: hidden;
+				border: 2px solid rgb(190, 190, 190);
+				display: inline-block;
+				top: -70px;
+				left: 50%;
+				margin-left: -70px;
+				position: absolute;
+				text-align: center;
+				background-size: cover;
+
+				.box__img {
+					max-width: 100%;
+					max-height: 100%;
+					display: block;
+				}
+			}
+
+			.box__title {
+				display: inline-block;
+				margin-top: -3px;
+				font-size: 21px;
+				font-family: 'Open Sans', sans-serif;
+				font-weight: 600;
+				word-wrap: break-word;
+			}
+		}
+
+		.box__bottom {
+			padding: 19px 80px;
+			background: #33c1e3;
+			border-radius: 0 0 10px 10px;
+		  	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+		  	text-align: center;
+  
+			.button__link_click {
+			    background-color: #33c1e3;
+			    border: 2px solid #fff;
+			    color: #fff;
+			   	font-size: 14px;
+			   	font-family: 'FiraSans-Bold';
+			   	font-weight: 700;
+			
+				&:hover {
+				    background-color: #fff;
+				    color: #33c1e3;
+				}
+			}
+ 		}
+	}
+}
+
+.wrapper:after {
+	content: "";
+	display: block;
+	height: 50px;
+}
+
+.container {
+	max-width: 940px;
+	margin: 0 auto;
+    
+}
+
+.footer {
+    height: 50px;
+    background: #414141;
+    margin-top: -50px;
+    color: #f6f6f6;
+    position: relative;
+}
+
+

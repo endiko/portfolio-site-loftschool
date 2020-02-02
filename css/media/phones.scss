@@ -1,0 +1,195 @@
+@media screen and (max-width: 480px) {
+  	
+  	.container {
+    	width: 95%; 
+	} 
+
+	.wrapper:after {
+		height: 114px;
+	}
+
+	.page {
+		text-align: center;
+	}
+
+	.title {
+  		margin: 0;
+  		display: inline-block;
+  	}
+
+	.user__name {
+		max-width: 150px;
+		font-size: 14px;
+		margin-left: 15px;
+	}
+
+	.header__right {
+		text-align: right;
+	}
+
+	.sidebar {
+		margin-bottom: 14px;
+	}    
+	
+	.nav {
+		padding-top: 12px;
+	}
+
+	.nav__item {
+		margin-right: 14px;
+	}
+
+	.nav__link {
+		margin: 0;
+		padding: 0;
+	}
+
+	.nav__icon {
+		display: none;
+	}
+
+	.nav__title {
+		font-size: 14px;
+	}
+
+	/*index.html*/
+	.box__wrapper {
+		width: 300px;
+
+		.box__bottom {
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	/*about*/
+  	.about__desc {
+  		margin-bottom: 25px;
+  		margin-left: 0;
+  	}
+	
+	.about__photo_wrapper {
+		width: 140px;
+  		height: 140px;
+	}
+	
+	.about__text {
+		padding-right: 0;
+		margin-bottom: 13px;
+		
+	}
+
+	.about__download {
+  		text-align: center;
+  	}
+	
+	/*career*/
+	
+	.career {
+		margin-top: 7px;
+		margin-left: 0;
+	}
+
+	.career__left{
+		text-align: center;
+		margin-top: 0;
+		margin-bottom: 10px;
+	}
+
+  	.career__img {
+		width: 220px;
+    	height: 220px;
+    	display: inline-block;
+    	margin-right: 0;
+    	margin-right: 16px;
+  	}
+
+  	.nav__career_list {
+  		margin-left: 15px;
+  	}
+
+  	.career__item_desc {
+    	width: 95%;
+    	font-size: 16px;
+    	margin-right: 0;
+    	padding: 16px 20px;
+    	text-align: left;
+    }
+	
+	.nav__career_title {
+		font-size: 18px;
+	}
+
+	/*portfolio*/
+	.portfolio {
+		margin-top: 27px;
+	}
+
+	.nav__portfolio_item {
+		width: 300px;
+		margin-bottom: 21px;
+	}
+
+	.portfolio__img_wrapper {
+		width: 300px;
+		height: 235px;
+	}
+
+	.portfolio__img_wrapper-da{
+		background: url('../img/content/da-phones.jpg') center center no-repeat;
+	}
+
+	.portfolio__img_wrapper-ds{
+		background: url('../img/content/ds-phones.jpg') center center no-repeat;
+	}
+	
+	.portfolio__img_wrapper-cs{
+		background: url('../img/content/cs-phones.jpg') center center no-repeat;
+	}
+
+	.portfolio__img_wrapper-sf{
+		background: url('../img/content/sf-phones.jpg') center center no-repeat;
+	}
+
+	.portfolio__img_wrapper-ca{
+		background: url('../img/content/ca-phones.jpg') center center no-repeat;
+	}
+
+	.portfolio__img {
+		display: none;
+	}
+	
+	.portfolio__content_wraper {
+		font-size: 16px;
+		line-height: 31px;
+		text-align: left;
+	}
+
+	.portfolio__title {
+		font-size: 24px;
+
+	}
+
+
+	.footer {
+		height: 114px;
+		margin-top: -114px;
+	}
+
+	.container {
+		text-align: center;
+		
+	}
+
+	.footer__left,
+	.footer__right {
+		float: none;
+		width: 100%;
+	}
+	
+	.copyright {
+		padding-top: 13px;
+		line-height: 21px;
+	}
+
+}

@@ -1,0 +1,123 @@
+@media screen and (max-width: 992px) {
+  .container {
+    width: 728px;
+    }
+
+  .contacts {
+    
+    &:hover {
+
+      .dropdown {
+        margin-left: -35px;
+        text-align: left;
+      }
+    }
+  }
+
+
+  .sidebar, 
+  .page {
+    width: 100%;
+    margin-left: 0;
+    float: none;
+  }
+  
+  /*sidebar*/
+  .sidebar {
+    margin-bottom: 6px;
+  }
+
+  .nav {
+    padding-top: 16px;
+  }
+  
+  .nav__item {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+    margin-left: 0;
+  }
+  
+  .nav__link {
+    border: none;
+    font-size: 18px;
+  }
+
+/*index.html*/
+  
+  .box__img_wrapper {
+        width: 104px;
+        height: 104px;
+        position: relative;
+        top: -28px;
+     }
+
+  
+
+  /*about*/
+  .about__left,
+  .career__left {
+    width: 228px;
+  }
+
+  .about__photo_wrapper {
+    width: 165px;
+    height: 165px;
+  }
+
+  .about__right {
+    width: 443px;
+    margin-left: 20px;
+    margin-right: 37px;
+  }
+  .about__desc {
+    margin-bottom: 50px;
+  }
+
+  .about__text {
+    height: 369px;
+  }
+
+  .about__download {
+    margin-top: 50px;
+  }
+  
+  .download-link {
+    margin-right: 26px;
+  }
+
+  /*Career*/
+
+  .career {
+    margin-left: 0;
+  }
+
+  .career__left {
+    margin-top: 5px;
+  } 
+
+  .career__img {
+    width: 228px;
+    height: 228px;
+  }
+
+  .career__right {
+    width: 492px;
+    margin-top: 6px;
+  } 
+
+  .nav__career_list {
+    margin-left: 116px;
+  }
+
+  .career__item_desc {
+    width: 356px;
+    margin-bottom: 19px;
+
+  }
+
+  /*Portfolio*/
+  .portfolio {
+    margin-left: 0;
+  }
+}

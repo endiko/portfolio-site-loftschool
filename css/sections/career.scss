@@ -1,0 +1,117 @@
+.career__left {
+    float: left;
+    width: 220px;
+    margin-top: 5px;
+}
+
+.career__img {
+    background: url('../../img/content/img-career.jpg') -85px -5px no-repeat;
+    width: 220px;
+    height: 220px;
+    border-radius: 9px;
+    margin-top: 2px;
+    overflow: hidden;
+}
+
+.career__right {
+    float: right;
+    width: 455px;
+    margin-top: 5px;
+}
+
+.nav__career_list {
+    margin-left: 74px;
+}
+
+.career__item_desc {
+    display: inline-block;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+    width: 380px;
+    min-height: 100px;
+    padding: 22px 0 10px 20px;
+    font-family: 'FiraSans-Light';
+    font-size: 18px;
+    line-height: 26px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.career__item_desc:after, .career__item_desc:before {
+    content: "";
+    display: block;
+    width: 1px;
+    background: #dddddd;
+    position: absolute;
+    right: 100%;
+    margin-right: 20px;
+}
+
+.career__item_desc:first-child:before,
+.career__item_desc:last-child:after {
+    display: none;
+}
+
+.career__item_desc:before {
+    top: 0;
+    bottom: 50%;
+}
+
+.career__item_desc:after {
+    top: 50%;
+    bottom: -20px;
+}
+
+.career__item_desc:hover {
+    background: #33c1e1;
+}
+
+.career__item_desc:hover .nav__career_title,
+.career__item_desc:hover .nav__career_position,
+.career__item_desc:hover .nav__career_timeinterval{
+    color: #fff;
+}
+
+.nav__career_title {
+    font-family: 'FiraSans-Regular';
+    font-size: 21px;
+}
+
+.career_year {
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -14px;
+    margin-right: 35px;
+    font-family: 'FiraSans-Light';
+    font-size: 14px;
+    line-height: 28px;
+    z-index: 10;
+}
+
+.career_year:after {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #33c1e1;
+    position: absolute;
+    right: -25px;
+    top: 50%;
+    margin-top: -10px;
+    border: 5px solid #f6f6f6;
+}
+
+.career__item_desc:hover .career_year {
+    font-family: 'FiraSans-Bold';
+    font-size: 18px;
+    line-height: 26px;
+    color: #33c1e1;
+}
+
+.career__item_desc:hover .career_year:after {
+    border-color: #94e0f2;
+} 

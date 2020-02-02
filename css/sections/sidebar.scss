@@ -1,0 +1,41 @@
+.sidebar {
+    float: left;
+    width: 220px;
+}
+
+.nav{
+    /* padding-top: 24px; */
+}
+
+.nav__link {
+	padding: 10px 25px 10px 0;
+    display: block;
+    color: #414141;
+    line-height: 24px;
+    text-align: right;
+    border-right: 6px solid transparent;
+}
+
+.nav__link:hover {
+	color: #33c1e3;
+}
+
+.nav__link_active, .nav__link:active {
+	font-family: 'FiraSans-Bold';
+    color: #33c1e3;
+    
+}
+
+.nav__item_active .nav__link {
+    border-color: #33c1e3;
+}
+
+.nav__icon, .nav__title {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.nav__icon {
+    margin-right: 5px;
+}
